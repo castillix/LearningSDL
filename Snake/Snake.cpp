@@ -80,8 +80,8 @@ int Snake::advance(Grid& grid) {
 void Snake::createFood(Grid& grid) {
 	bool placed = false;
 	while(!placed) {
-		int foodX = Random::get(0, kGridWidth - 1);
-		int foodY = Random::get(0, kGridHeight - 1);
+		int foodX = Random::get(0, kGridWidth);
+		int foodY = Random::get(0, kGridHeight);
 
 		if(grid.get(foodX, foodY) == 0) {
 			grid.set(foodX, foodY, 2);
