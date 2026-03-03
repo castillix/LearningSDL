@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/cast/dev/SDLearning/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe  @CMakeFiles/Transit.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Transit.dir\\Project\\DVDLogo.cpp.obj -c C:\\Users\\cast\\dev\\SDLearning\\Project\\DVDLogo.cpp",
+  "file": "C:/Users/cast/dev/SDLearning/Project/DVDLogo.cpp",
+  "output": "CMakeFiles/Transit.dir/Project/DVDLogo.cpp.obj"
+},
+{
+  "directory": "C:/Users/cast/dev/SDLearning/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe  @CMakeFiles/Transit.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Transit.dir\\Project\\LTexture.cpp.obj -c C:\\Users\\cast\\dev\\SDLearning\\Project\\LTexture.cpp",
+  "file": "C:/Users/cast/dev/SDLearning/Project/LTexture.cpp",
+  "output": "CMakeFiles/Transit.dir/Project/LTexture.cpp.obj"
+},
+{
+  "directory": "C:/Users/cast/dev/SDLearning/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\g++.exe  @CMakeFiles/Transit.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Transit.dir\\Project\\main.cpp.obj -c C:\\Users\\cast\\dev\\SDLearning\\Project\\main.cpp",
+  "file": "C:/Users/cast/dev/SDLearning/Project/main.cpp",
+  "output": "CMakeFiles/Transit.dir/Project/main.cpp.obj"
+}
+]

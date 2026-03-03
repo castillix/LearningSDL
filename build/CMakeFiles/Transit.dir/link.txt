@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Transit.dir/objects.a
+C:\ProgramData\mingw64\mingw64\bin\ar.exe qc CMakeFiles\Transit.dir/objects.a @CMakeFiles\Transit.dir\objects1.rsp
+C:\ProgramData\mingw64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Transit.dir/objects.a -Wl,--no-whole-archive -o C:\Users\cast\dev\SDLearning\bin\Debug-x64\Transit.exe -Wl,--out-implib,C:\Users\cast\dev\SDLearning\bin\Debug-x64\libTransit.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Transit.dir\linkLibs.rsp

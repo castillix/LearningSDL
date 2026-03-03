@@ -1,0 +1,58 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 6b76ae80f735412af848154807bcad1adb67b6afdd72a4760b3fc6dbc3321534
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 5742fa071abced80e0c9d2118afca32687ed829fe43f542af22464d8197a5da6
+Status: install ok installed
+
+Package: sdl3
+Version: 3.4.2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 79a71f50ba03fc2381257766a75bf734ffcaf5da3dffbc94e5802afbaeca99b8
+Description: Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: ab407b7d3ad9098cdf5d50ef7139828a7315d1e3cf6744c29072957f6dc9d8e5
+Description: A compression library
+Status: install ok installed
+
+Package: libpng
+Version: 1.6.55
+Depends: vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: dfdee2462095e6795cb8046514c9d2d45742cdf9aaa2851a673c415fd61d24c5
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
+Status: install ok installed
+
+Package: sdl3-image
+Version: 3.4.0
+Depends: sdl3, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 82cd9460d186676097957695041f8667560c7ac25fa961cadec231d728dfe92d
+Description: SDL_image is an image file loading library. It loads images as SDL surfaces and textures, and supports the following formats: BMP, GIF, JPEG, LBM, PCX, PNG, PNM, TGA, TIFF, WEBP, XCF, XPM, XV
+Status: install ok installed
+
+Package: sdl3-image
+Feature: png
+Depends: libpng
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Description: Support for PNG image format
+Status: install ok installed
+
