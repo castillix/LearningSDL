@@ -1,3 +1,0 @@
-C:/Users/cast/dev/SDLearning/build/CMakeFiles/Transit.dir
-C:/Users/cast/dev/SDLearning/build/CMakeFiles/edit_cache.dir
-C:/Users/cast/dev/SDLearning/build/CMakeFiles/rebuild_cache.dir
