@@ -15,7 +15,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${BIN_DIR}")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${BIN_DIR}")
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${BIN_DIR}")
 
-file(GLOB SRC_FILES "Project/*.cpp")
+file(GLOB SRC_FILES "Snake/*.cpp")
 add_executable(Transit ${SRC_FILES})
 
 target_link_libraries(Transit PRIVATE 
