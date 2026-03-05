@@ -4,10 +4,19 @@
   "dependencies": [
     "sdl3",
     {
-    	"name": "sdl3-image",
-	"features": [
-		"png"
-	]
+      "name": "sdl3-image",
+      "features": [
+        "png"
+      ]
+    },
+    "glm",
+    "glad",
+    {
+      "name": "imgui",
+      "features": [
+        "sdl3-binding",
+        "opengl3-binding"
+      ]
     }
   ]
 }
